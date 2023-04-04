@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 5px;
+}
+
+.block{
+  background: url(../laptop.jpg) 50% 50% / auto no-repeat, radial-gradient(#1264b7, #9c4f9d)
+}
+
+/* .block{
+  background-image: url(../laptop.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50% ;
+  background-color:#1264b7;
+} */

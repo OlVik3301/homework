@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 50px;
+  min-height: 100%;
+}
+
+.grid__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.item {
+  border: 5px solid #000;
+  font-size: 40px;
+  padding: .8em;
+  text-align: center;
+}
+
+.grid__main{
+  display: grid;
+  grid-template: repeat(2, auto) / 200px  200px minmax(100px, 200px) 200px 200px;
+}

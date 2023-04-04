@@ -1,0 +1,22 @@
+.text{
+  font-family: sans-serif;
+  font-size: 100px;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+
+.text{
+  animation: color-text 3s infinite alternate 1s ;
+}
+@keyframes color-text {
+  0%{
+    color: #fa0000;
+  }
+  50% {
+    color: #fafafa;
+  }
+  100%{
+    color: #000000;
+  }
+}

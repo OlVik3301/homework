@@ -1,0 +1,11 @@
+div.block{
+  color: red;
+}
+
+div.perent.chaild{
+  color: blueviolet;
+}
+
+div[href="#"]{
+  color: orangered;
+}

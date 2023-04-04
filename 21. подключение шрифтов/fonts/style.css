@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Lexend Peta';
+    src: local('Lexend Peta Regular'), local('Lexend-Peta-Regular'),
+        url('LexendPeta-Regular.woff2') format('woff2'),
+        url('LexendPeta-Regular.woff') format('woff'),
+        url('LexendPeta-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

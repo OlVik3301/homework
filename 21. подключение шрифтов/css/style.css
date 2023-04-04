@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Lexend Peta';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Lexend Peta Regular'), 
+        local('LexendPeta-Regular') 
+      url('LexendPeta-Regular.woff2') format('woff2'),
+      url('LexendPeta-Regular.woff') format('woff'),
+      url('LexendPeta-Regular.eot') format('eot');
+  font-display: swap;
+}
+.greet__text-1 {
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+}
+.greet__text-2{
+  font-family: "Lexend Peta", sans-serif;
+  font-weight: 400;
+}
+.greet__title {
+  font-size: 5rem;
+  margin-bottom: 50px;
+}
+.greet__text {
+  font-size: 2rem;
+  line-height: 150%;
+  margin-bottom: 50px;
+}

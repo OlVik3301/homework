@@ -1,0 +1,10 @@
+.block{
+  width: auto;
+  height: 300px;
+  border: 5px solid #000;
+  transition: 3s 2s;
+}
+
+.block:hover{
+border: 5px solid blueviolet;
+} 

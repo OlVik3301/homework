@@ -1,0 +1,28 @@
+.title{
+  color: #000000;
+  font-size: 2em; 
+  font-weight: bold;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+}
+
+.title::before{
+content: "";
+background-color: #0000ff;
+width: 10px;
+height: 10px;
+border-radius: 3px;
+display: inline-block;
+}
+
+.title::after{
+  content: "";
+  background: 0 0 #ff0000 ;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 100px 15px;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100%;
+  border: 10px solid #999;
+  display: flex;
+}
+
+.purple{
+  height: 100px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 20px #000000d7;
+  background-color: #cd94e7;
+  position: fixed;
+  top: 587px;
+  right: 50px;
+  left: 50%;
+  }
